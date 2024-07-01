@@ -10,6 +10,13 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+ .header-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://scontent.fcgb1-1.fna.fbcdn.net/v/t39.30808-6/418443272_388825283647263_7080786752386917604_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=DNl5UNm1u1AQ7kNvgH44zHF&_nc_ht=scontent.fcgb1-1.fna&oh=00_AYB1mXtmwQ6NqxKwRyKODHqHsklTZtOaUjS9V14_vAi4aA&oe=6687E8AA') no-repeat center center;
+  background-size: cover;
+  position: relative;
+  padding: 5rem 0;
+}
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
